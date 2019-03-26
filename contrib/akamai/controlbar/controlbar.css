@@ -1,6 +1,7 @@
 /**************************************************/
 /*Control bar*/
 /**************************************************/
+
 .hide{
     display: none;
 }
@@ -46,6 +47,13 @@
 
 .duration-display{
     float: right;
+}
+
+.live-icon {
+    cursor: pointer;
+}
+.live-icon.live{
+    color:red !important;
 }
 
 .btn-play-pause{
